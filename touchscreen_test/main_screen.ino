@@ -25,8 +25,8 @@ void updateGraphs() {
     display2 = true;
     tft.fillRect(1, 0, 360, 320, BLACK);
   }
-  Graph(tft, tmpP_t, tmpP, 40, 140, 320, 120, 0, 15, 1, -5, 45, 5, "Pressure", "", "cmH2o", DKBLUE, RED, YELLOW, WHITE, BLACK, display1, &ox1, &oy1);
-  Graph(tft, tmpF_t, tmpTv, 40, 290, 320, 120, 0, 15, 1, 0, 600, 50, "Volume", "", "ml", DKBLUE, RED, GREEN, WHITE, BLACK, display2, &ox2, &oy2);
+  Graph(tft, tmpP_t, tmpP, 40, 140, 320, 120, 0, 15, 1, -10, 50, 10, "Pressure", "", "cmH2o", DKBLUE, RED, YELLOW, WHITE, BLACK, display1, &ox1, &oy1);
+  Graph(tft, tmpF_t, tmpTv, 40, 290, 320, 120, 0, 15, 1, 0, 600, 100, "Volume", "", "ml", DKBLUE, RED, GREEN, WHITE, BLACK, display2, &ox2, &oy2);
   last_t = t;
 }
 
